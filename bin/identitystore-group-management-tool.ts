@@ -8,8 +8,9 @@ new IdentitystoreGroupManagementToolStack(
   app,
   "IdentitystoreGroupManagementToolStack",
   {
-    // GFのIAM Identity CenterアカウントであるPayer-259アカウントを指定
+    // IAM Identity Centerアカウントを指定
     env: { account: "XXXXXXXXXXXX", region: "ap-northeast-1" },
+    // identityStoreIdはマネジメントコンソールで確認可能
     identityStoreId: "XXXXXXXXXXXX",
   }
 );
