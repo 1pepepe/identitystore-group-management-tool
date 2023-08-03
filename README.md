@@ -11,7 +11,7 @@ IAM Identity Center で Google Workspace を IdP とした際に、SCIM でグ�
 ユーザーとグループを追加する方法はそれぞれ下記に記載しています。
 
 ```shell
-$ cdk deploy --profile Payer-259アカウントのプロファイル
+$ cdk deploy
 ```
 
 でデプロイ可能です。
